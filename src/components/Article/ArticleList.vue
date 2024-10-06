@@ -57,9 +57,9 @@ export default {
         this.articles = response.data
       })
     },
-    deleteArticles(id) {
+    deleteArticle(id) {
       if (confirm('Are you sure you want to delete this article?')) {
-        api.deleteArticles(id).then(() => {
+        api.deleteArticle(id).then(() => {
           this.fetchArticles()
         })
       }

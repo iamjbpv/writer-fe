@@ -1,45 +1,42 @@
-# vue-project
+# VUE.js Article Manager
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the front end counterpart of the app
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- User authentication (writer and editor roles)
+- Article management (create, edit, delete)
+- User management (create, edit, delete)
+- Company management (create, edit, delete)
+- Role-based access control
 
-## Type Support for `.vue` Imports in TS
+## Getting Started
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### Prerequisites
 
-## Customize configuration
+Before you begin, ensure you have the following installed:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [Node.js](https://nodejs.org/)
+- [NPM](https://www.npmjs.com/)
 
-## Project Setup
+### Installation
 
-```sh
-npm install
-```
+1. Clone the repository:
 
-### Compile and Hot-Reload for Development
+2. npm install
 
-```sh
-npm run dev
-```
+3. npm run dev
 
-### Type-Check, Compile and Minify for Production
+User Credentials
+The application has two user roles:
 
-```sh
-npm run build
-```
+Writer
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+Username: johndoe
+Password: password123
+Editor
 
-```sh
-npm run test:unit
-```
+Username: janesmith
+Password: password123
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+link:
